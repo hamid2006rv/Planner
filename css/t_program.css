@@ -1,0 +1,107 @@
+@font-face
+{
+font-family: B_Compset;
+src: url('B Compset.ttf'),
+     url('B Compset.eot'); /* IE9 */
+}
+p.MsoNormal
+	{margin-bottom:.0001pt;
+	text-align:right;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	        margin-left: 0in;
+            margin-right: 0in;
+            margin-top: 0in;
+        }
+ table.MsoNormalTable
+	{font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	}
+        .style2
+        {
+            height: 28.05pt;
+            width: 23pt;
+        }
+        .style3
+        {
+            height: 21.4pt;
+            width: 23pt;
+        }
+        .style4
+        {
+            height: 21.35pt;
+            width: 23pt;
+        }
+        .style5
+        {
+            height: 26.25pt;
+            width: 23pt;
+        }
+        .style6
+        {
+            height: 27.0pt;
+            width: 23pt;
+        }
+        #crs_panel
+        {
+            top: 117px;
+            right: 918px;
+            width: 193px;
+            height: 510px;
+        }
+.crstr{
+	mso-yfti-irow:1;
+	page-break-inside:avoid;
+	height:31.7pt;
+	font-size:12.0pt;
+	font-family:B Compset;
+	}
+
+#crsdialog{
+	display:none;
+	box-shadow: 10px 10px 5px #888888;
+	border: 1pt solid #888888;
+	font-size:8pt;
+	position:absolute;
+	z-index:2;
+	background-color:white;
+	padding: 5px 5px 5px 5px;
+	width:300px;
+	height:150px;
+}
+#crs{
+	position:absolute;
+	height:100pt;
+	width:100pt;
+	background-color:#E4EFF8;
+	border: 1pt solid #9FC6E7;
+	font-family:tahoma;
+	font-size:10pt;
+	direction:rtl;
+	display:none;
+}
+.section{
+	font-family:tahoma;
+	font-size:10pt;
+}
+#overlay{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color: #000;
+	opacity: 0.6;
+	display:none;
+}
+#wait{
+	font-family:tahoma;
+	font-size:10pt;
+	position:absolute;
+	background-color: #FFFFCC;
+	width:200pt;
+	height:100pt;
+	display:none;
+}

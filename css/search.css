@@ -1,0 +1,64 @@
+#hover{
+	position:absolute;
+	display:none;
+	background-color:white;
+	border:1px solid #000000;
+	padding:2px;
+}
+table.table
+{
+border-collapse:collapse;
+border-style:solid;
+border-width:1px;
+border-color:#C3D9FF;
+padding:1px;
+font-family:Tahoma; 
+font-size:10pt;
+width:auto;
+}
+
+th.head
+{
+color:#0000F0;
+background:#E6E6E6;
+border-top-style: solid;
+border-bottom-style: solid;
+border-width:1px;
+border-color:#C3D9FF;
+font-weight:bold;
+padding:4px;
+text-align:center;
+vertical-align:middle;
+}
+
+tr.row
+{
+color:#000000;
+border-style:solid;
+border-width:1px;
+border-color:#C3D9FF;
+font-weight:100;
+}
+
+tr.row:hover td
+{
+color:#2B5DFF;
+}
+
+tr.row:nth-child(odd) td
+{
+background:#F7F8FB;
+}
+
+td.col
+{
+background:#F0F0F0;
+border-top-style: solid;
+border-bottom-style: solid;
+border-width:1px;
+border-color:#C3D9FF;
+padding:2px;
+text-align:center;
+vertical-align:middle;
+}
+
